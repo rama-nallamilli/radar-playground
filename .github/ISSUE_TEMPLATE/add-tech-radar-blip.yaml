@@ -45,11 +45,11 @@ body:
         - Platforms
         - Tools
         - Languages & Frameworks
+      description:
+        value: |
+          Platforms -	SaaS products used by Babylon (both internal & external)
+          Tools	- notable libraries, developer tools, open source databases etc 
+          Languages & Frameworks - programming languages, web and data processing frameworks 
+          Techniques - ways of working such as TDD, continous delivery, feature flagging, merge strategies, testing strategies etc  
     validations:
       required: true
-    description:
-      value: |
-        Platforms -	SaaS products used by Babylon (both internal & external)
-        Tools	- notable libraries, developer tools, open source databases etc 
-        Languages & Frameworks - programming languages, web and data processing frameworks 
-        Techniques - ways of working such as TDD, continous delivery, feature flagging, merge strategies, testing strategies etc  
