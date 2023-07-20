@@ -1,10 +1,8 @@
----
 name: Add tech radar item
 about: Propose technology for addition to Babylon Technology Radar
 title: ''
 labels: tech-radar
 assignees: ''
-
 body:
   - type: markdown
     attributes:
@@ -61,4 +59,3 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
----
