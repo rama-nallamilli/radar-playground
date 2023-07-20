@@ -8,12 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to add a new technology to the Babylon Radar, the goals of the Radar are to
-        * Objectively assess what's working, and what isn't
-        * Pollinate innovation across teams and experiment accordingly
-        * Balance risk in our technology portfolio
-        * Work out what kind of technology organization we want to be
-        * Set a path for future success
+        Thanks for taking the time to add a new technology to the Babylon Radar.
   - type: input
     id: suggestor
     attributes:
@@ -41,6 +36,14 @@ body:
         - TRIAL
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please attribute the technology to an appropriate quadrant,
+        * Platforms -	SaaS products used by Babylon (both internal & external)
+        * Tools	- notable libraries, developer tools, open source databases etc
+        * Languages & Frameworks - programming languages, web and data processing frameworks
+        * Techniques - ways of working such as TDD, continous delivery, feature flagging, merge strategies, testing strategies etc
   - type: dropdown
     id: quadrant
     attributes:
@@ -50,6 +53,5 @@ body:
         - Platforms
         - Tools
         - Languages & Frameworks
-      description: Platforms -	SaaS products used by Babylon (both internal & external), Tools	- notable libraries, developer tools, open source databases etc, Languages & Frameworks - programming languages, web and data processing frameworks, Techniques - ways of working such as TDD, continous delivery, feature flagging, merge strategies, testing strategies etc  
     validations:
       required: true
