@@ -36,14 +36,6 @@ body:
         - TRIAL
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Please attribute the technology to an appropriate quadrant,
-        * Platforms -	SaaS products used by Babylon (both internal & external)
-        * Tools	- notable libraries, developer tools, open source databases etc
-        * Languages & Frameworks - programming languages, web and data processing frameworks
-        * Techniques - ways of working such as TDD, continous delivery, feature flagging, merge strategies, testing strategies etc
   - type: dropdown
     id: quadrant
     attributes:
@@ -55,3 +47,12 @@ body:
         - Languages & Frameworks
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please attribute the technology to an appropriate quadrant,
+        * Platforms -	SaaS products used by Babylon (both internal & external)
+        * Tools	- notable libraries, developer tools, open source databases etc
+        * Languages & Frameworks - programming languages, web and data processing frameworks
+        * Techniques - ways of working such as TDD, continous delivery, feature flagging, merge strategies, testing strategies etc
+
