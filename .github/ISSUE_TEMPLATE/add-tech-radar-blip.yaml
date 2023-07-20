@@ -12,7 +12,7 @@ body:
   - type: input
     id: suggestor
     attributes:
-      label: Suggesstor
+      label: Suggestor
       description: Who is the owner?
       placeholder: ex. first.lastname@babylonhealth.com
     validations:
@@ -28,8 +28,7 @@ body:
   - type: dropdown
     id: ring
     attributes:
-      label: ring
-      description: Tech radar lifecyle?
+      label: Tech radar lifecycle
       options:
         - HOLD
         - ADOPT
@@ -40,10 +39,11 @@ body:
   - type: dropdown
     id: quadrant
     attributes:
-      label: Tech radar quadrant?
-      multiple: true
+      label: Tech radar quadrant
       options:
         - Techniques
         - Platforms
         - Tools
         - Languages & Frameworks
+    validations:
+      required: true
