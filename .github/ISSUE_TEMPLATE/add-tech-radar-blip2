@@ -1,0 +1,50 @@
+name: Add a new technology radar item2
+description: Propose technology for addition to Babylon Technology Radar
+title: "[RADAR UPDATE]: "
+labels: ["tech-radar"]
+assignees:
+  - radar-admins
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: suggestor
+    attributes:
+      label: Suggestor
+      description: Who is the owner?
+      placeholder: ex. first.lastname@babylonhealth.com
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: description
+      description: What is the technology?  Why & how will it be used at Babylon?   Any supporting documentation?
+      placeholder: Please tell us more! 
+    validations:
+      required: true
+  - type: dropdown
+    id: ring
+    attributes:
+      label: Tech radar lifecycle
+      options:
+        - HOLD
+        - ADOPT
+        - ASSESS
+        - TRIAL
+    validations:
+      required: true
+  - type: dropdown
+    id: quadrant
+    attributes:
+      label: Tech radar quadrant
+      options:
+        - Techniques
+        - Platforms
+        - Tools
+        - Languages & Frameworks
+      description: Platforms -	SaaS products used by Babylon (both internal & external), Tools	- notable libraries, developer tools, open source databases etc, Languages & Frameworks - programming languages, web and data processing frameworks, Techniques - ways of working such as TDD, continous delivery, feature flagging, merge strategies, testing strategies etc  
+    validations:
+      required: true
